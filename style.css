@@ -1,0 +1,59 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0b1a38, #2c003e);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card Styling */
+.card {
+  background: #fff;
+  width: 340px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Header */
+.card-header {
+  background: #1c8c43;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Section Style */
+.section {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+/* Colors for each section */
+.disease { color: red; }
+.fertilizer { color: green; }
+.weather { color: dodgerblue; }
+
+/* Kannada Text */
+.kannada {
+  padding: 12px 16px;
+  font-size: 14px;
+  background: #f6f6f6;
+}
